@@ -1,0 +1,91 @@
+* {
+  font-family: 'Open sans';
+}
+
+body .container {
+  width: 615px;
+  margin: 0 auto;
+}
+
+.page-home {
+  background-color: #ebebeb;
+  box-sizing: border-box;
+  opacity: 0.961;
+  box-shadow: 3px 3px 50px 5px rgba(0, 0, 0, 0.18);
+  width: 100%;
+  height: 315px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.page-home h1 {
+  padding-top: 20px;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.download {
+  background-color: #0072bc;
+  color: #fff;
+  height: 45px;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  opacity: 0.89;
+  padding: 0 50px;
+  line-height: 45px;
+  text-decoration: none;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 14px 5px -10px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.download:hover {
+  box-shadow: 0px 25px 10px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -5px);
+          transform: translate(0px, -5px);
+}
+
+.page-bottom {
+  box-sizing: border-box;
+  margin-top: 100px;
+  background-color: #ebebeb;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 12px 59.4px 3px rgba(0, 0, 0, 0.24);
+  padding-bottom: 20px;
+}
+
+.page-bottom a {
+  text-decoration: none;
+  color: #ea2e2e;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+
+.page-bottom a:hover {
+  color: rgba(234, 46, 46, 0.7);
+}
+
+.page-bottom h3 {
+  padding-top: 30px;
+  margin: 0;
+}
+
+.page-bottom h5 {
+  margin-top: 5px;
+}
+
+.twitter-logo img, .github-logo img {
+  width: 42px;
+  margin: 0 5px;
+}
