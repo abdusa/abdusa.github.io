@@ -8,10 +8,10 @@ body .container {
 }
 
 .page-home {
-  background-color: #ebebeb;
+  background-color: #FFFFFF;
   box-sizing: border-box;
   opacity: 0.961;
-  box-shadow: 3px 3px 50px 5px rgba(0, 0, 0, 0.18);
+  box-shadow: 12px 20px 50px -13px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 315px;
   margin-top: 100px;
@@ -57,11 +57,11 @@ p {
 
 .page-bottom {
   box-sizing: border-box;
-  margin-top: 100px;
-  background-color: #ebebeb;
+  margin-top: 60px;
+  background-color: #FFFFFF;
   width: 100%;
   text-align: center;
-  box-shadow: 0px 12px 59.4px 3px rgba(0, 0, 0, 0.24);
+  box-shadow: 12px 20px 50px -13px rgba(0, 0, 0, 0.2);
   padding-bottom: 20px;
 }
 
