@@ -1,6 +1,10 @@
-// This is main.js file
-// all file in libs will not concating
+var foo = {
+  bar: () => console.log(this.a)
+}
 
-$(document).ready(function(){
-  
-});
+
+let b = foo.bar;
+
+
+var a = 3;
+b();
