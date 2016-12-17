@@ -7,6 +7,8 @@
   var $loadWork = $('.project-load');
   var $mobileNav = $('.nav-toggle');
 
+  $.ajaxSetup({cache: true});
+
   $workName.on('click', showWork);
   $btnBack.on('click', hideWork);
   $mobileNav.on('click', function() {
@@ -49,22 +51,3 @@
   }
 
 })()
-
-
-function getAllPosition() {
-  // Cache DOM
-  // var $prevButton = $('.prev');
-  // var $projectWrap = $('.proj-wrap');
-
-
-
-  // console.log('Browser height = ' + window.innerHeight);
-  // console.log('Browser width = ' + window.innerWidth);
-  // console.log('Viewport width = ' + document.body.clientWidth);
-  // console.log('Viewport height = ' + document.body.clientHeight);
-  // console.log($('.prev')[0].getBoundingClientRect().top);
-  // console.log($('.prev')[0].getBoundingClientRect().right);
-  // console.log($('.prev')[0].getBoundingClientRect().bottom);
-
-
-}
