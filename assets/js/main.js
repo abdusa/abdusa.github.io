@@ -4,6 +4,7 @@
   var $btnBack = $('.prev #btn-prev');
   var $workSlider = $('.work-conveyor');
   var $wrapWork = $('.proj-wrap');
+  var $listWorkWrap = $('.thumb-work');
   var $loadWork = $('.project-load');
   var $mobileNav = $('.nav-toggle');
 
@@ -28,11 +29,13 @@
     $workSlider.css('left', '-100%');
     $loadWork.html(loader).load(workPath);
     $wrapWork.show(600);
+    $listWorkWrap.hide(1800);
   }
 
   function hideWork() {
     $workSlider.css('left', '0%');
     $wrapWork.hide(600);
+    $listWorkWrap.show(200);
   }
 
   // smoothScroll function is applied from the document ready function original from artists theme
